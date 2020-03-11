@@ -7,11 +7,13 @@ namespace TravelDiary.Models
     public string CityName { get; set; }
     public int Id { get; }
     public static List<Place> Instances { get; } = new List<Place> {};
+    public string Journal { get; set; }
 
-    public Place(string cityName)
+    public Place(string cityName, string journal)
     {
       CityName = cityName;
       Instances.Add(this);
+      Journal = journal;
       Id = Instances.Count;
     }
 
