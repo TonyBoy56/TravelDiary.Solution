@@ -1,7 +1,7 @@
   
 using Microsoft.AspNetCore.Mvc;
 
-namespace ToDoList.Controllers
+namespace TravelDiary.Controllers
 {
     public class HomeController : Controller
     {
